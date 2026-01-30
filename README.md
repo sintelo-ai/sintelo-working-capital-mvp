@@ -1,41 +1,19 @@
-# Sintelo – Working Capital MVP
+# Sintelo – Working Capital MVP (Distributors)
 
-## What this is
-This repository contains the MVP engine used to diagnose and govern working capital
-in distribution businesses.
+MVP engine to diagnose and govern working capital in distribution businesses using transaction-level data.
 
-The goal is not reporting or BI.
-The goal is to force explicit capital allocation decisions.
-
-## What problem it solves
-- Capital trapped in inventory
-- Poor rotation at SKU level
-- Implicit financing through customers and purchasing
-- ROIC pressure driven by working capital misallocation
-
-## Scope
-Included:
-- Inventory (SKU-level)
-- Accounts receivable (or proxies in demo)
-- Purchasing decisions
-- Short-cycle capital release (30–90 days)
-
-Excluded:
-- Operational execution
-- ERP implementation
-- Full accounting accuracy
-- Long-term transformations
-
-## Data
-- Demo data: AdventureWorks (transaction-level)
-- Real use: ERP transactional data
+## Goal
+Force explicit capital allocation decisions (inventory, receivables proxies, purchasing) to release cash and improve an operational ROIC (mandate-level) in short cycles (30–90 days).
 
 ## Outputs
-- Decision tables (not dashboards)
-- Capital-at-risk rankings
-- Before / After capital simulations
-- Operational ROIC (mandate-level)
+- Decision tables (rankings and flags, not BI dashboards)
+- Before/After capital simulations
+- Operational ROIC trend (explicit assumptions)
 
-## Philosophy
-Imperfect but honest metrics that force decisions
-beat perfect metrics that justify inaction.
+## Method
+CRISP-DM workflow implemented as 5 notebooks:
+01 Business Understanding
+02 Data Understanding
+03 Data Preparation
+04 Modeling
+05 Evaluation
