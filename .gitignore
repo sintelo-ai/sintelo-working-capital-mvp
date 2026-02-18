@@ -14,9 +14,22 @@ venv/
 # OS
 .DS_Store
 
-# Data (no subas raw)
-data/raw/
-data/processed/
+# =========================
+# DATA STRATEGY - SINTELO
+# =========================
 
-# Outputs (si quieres versionar gold, quita esta línea)
-outputs/demo/
+# NO subir raw (fuente original)
+data/raw/
+
+# NO subir backups pesados
+*.bak
+
+# Subir gold (es reproducible e institucional)
+# data/gold/   <-- NO ignorar
+
+# =========================
+# REPORTS
+# =========================
+
+# Subir reports (estos son entregables institucionales)
+# reports/  <-- NO ignorar

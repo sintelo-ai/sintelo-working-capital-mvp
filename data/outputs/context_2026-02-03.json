@@ -1,0 +1,171 @@
+{
+  "summary": {
+    "snapshot_date": "2026-02-03",
+    "inventory_capital_total": 19225834.0312,
+    "inventory_return_12m_total": 5995295.712091001,
+    "inventory_roic_portfolio": 0.3118354034660726,
+    "dio_weighted": 3064.843450313815,
+    "n_skus_total": 504,
+    "n_skus_with_capital": 219
+  },
+  "concentration": {
+    "top20_cap_share": 0.6090483681486946,
+    "low_roic_capital": 13872442.668,
+    "low_roic_capital_share": 0.7215521909472209,
+    "bottom30_capital": 5380693.9558,
+    "bottom30_roic": -0.06175129231701467,
+    "top30_capital": 3451409.1026000003,
+    "top30_roic": 1.4832391254466408
+  },
+  "scenario": {
+    "hurdle_roic": 0.25,
+    "bottom_segment_pct": 0.3,
+    "reduction_rate": 0.2,
+    "capital_released": 1076138.79116,
+    "roic_top_segment": 1.4832391254466408,
+    "incremental_return": 1596171.1594593637,
+    "proforma_inventory_roic": 0.39485760977811457
+  },
+  "flags": {
+    "portfolio_roic_below_hurdle": false,
+    "capital_highly_concentrated_top20_gt60pct": true,
+    "low_roic_capital_share_gt30pct": true,
+    "dio_weighted_gt120": true
+  },
+  "decision": "APPROVE",
+  "top_categories": [
+    {
+      "category_name": "Bikes",
+      "capital": 14623652.532399999,
+      "return_12m": 4904789.427285001,
+      "skus": 97,
+      "roic": 0.3354011192770072
+    },
+    {
+      "category_name": "Components",
+      "capital": 4375836.8086,
+      "return_12m": 328379.9246860001,
+      "skus": 134,
+      "roic": 0.07504391480976219
+    },
+    {
+      "category_name": "Clothing",
+      "capital": 138132.9324,
+      "return_12m": 195640.59697600003,
+      "skus": 35,
+      "roic": 1.4163211739360717
+    },
+    {
+      "category_name": "Accessories",
+      "capital": 88211.75779999999,
+      "return_12m": 566485.763144,
+      "skus": 29,
+      "roic": 6.421884987581554
+    },
+    {
+      "category_name": null,
+      "capital": 0.0,
+      "return_12m": 0.0,
+      "skus": 209,
+      "roic": null
+    }
+  ],
+  "top_subcategories": [
+    {
+      "category_name": "Bikes",
+      "subcategory_name": "Road Bikes",
+      "capital": 6927375.9819,
+      "return_12m": 1182120.53735,
+      "skus": 43,
+      "roic": 0.170644778114927
+    },
+    {
+      "category_name": "Bikes",
+      "subcategory_name": "Mountain Bikes",
+      "capital": 4771083.8883,
+      "return_12m": 3349815.523869,
+      "skus": 32,
+      "roic": 0.7021078652764128
+    },
+    {
+      "category_name": "Bikes",
+      "subcategory_name": "Touring Bikes",
+      "capital": 2925192.6621999997,
+      "return_12m": 372853.36606600054,
+      "skus": 22,
+      "roic": 0.12746284061357596
+    },
+    {
+      "category_name": "Components",
+      "subcategory_name": "Mountain Frames",
+      "capital": 1671963.0595,
+      "return_12m": 178742.57843500003,
+      "skus": 28,
+      "roic": 0.10690581793622458
+    },
+    {
+      "category_name": "Components",
+      "subcategory_name": "Wheels",
+      "capital": 1059724.1329,
+      "return_12m": 493.13599999999997,
+      "skus": 14,
+      "roic": 0.0004653437481417952
+    },
+    {
+      "category_name": "Components",
+      "subcategory_name": "Cranksets",
+      "capital": 337989.7228,
+      "return_12m": 48735.58716800001,
+      "skus": 3,
+      "roic": 0.14419251202155195
+    },
+    {
+      "category_name": "Components",
+      "subcategory_name": "Road Frames",
+      "capital": 287310.4688,
+      "return_12m": -13316.657213999939,
+      "skus": 33,
+      "roic": -0.04634936300657326
+    },
+    {
+      "category_name": "Components",
+      "subcategory_name": "Forks",
+      "capital": 217323.2279,
+      "return_12m": 0.0,
+      "skus": 3,
+      "roic": 0.0
+    },
+    {
+      "category_name": "Components",
+      "subcategory_name": "Handlebars",
+      "capital": 216164.3481,
+      "return_12m": 21555.604121999997,
+      "skus": 8,
+      "roic": 0.09971859056067903
+    },
+    {
+      "category_name": "Components",
+      "subcategory_name": "Pedals",
+      "capital": 128244.26640000001,
+      "return_12m": 34964.895929,
+      "skus": 7,
+      "roic": 0.2726429563715762
+    },
+    {
+      "category_name": "Components",
+      "subcategory_name": "Bottom Brackets",
+      "capital": 108515.924,
+      "return_12m": 12594.611600000002,
+      "skus": 3,
+      "roic": 0.11606233569922883
+    },
+    {
+      "category_name": "Components",
+      "subcategory_name": "Saddles",
+      "capital": 102600.36,
+      "return_12m": 13109.807958000001,
+      "skus": 9,
+      "roic": 0.12777545768845255
+    }
+  ]
+}
