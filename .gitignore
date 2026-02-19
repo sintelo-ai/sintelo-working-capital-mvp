@@ -33,3 +33,6 @@ data/raw/
 
 # Subir reports (estos son entregables institucionales)
 # reports/  <-- NO ignorar
+
+# notebooks local artifacts
+notebooks/data/
