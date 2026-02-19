@@ -1,0 +1,328 @@
+{
+  "company_name": "AdventureWorks Demo",
+  "prepared_by": "Sintelo",
+  "snapshot_date": "2026-02-18",
+  "inventory_skus_in_scope": 219,
+  "categories_in_scope": 4,
+  "subcategories_in_scope": 35,
+  "inventory_capital_total": 19225834.0312,
+  "gross_profit_12m_est_total": 5776873.398936002,
+  "inventory_roic_weighted": 0.30047452763615856,
+  "benchmark_roic_p75": 0.48862182364006623,
+  "gap_vs_p75": 0.18814729600390767,
+  "gross_profit_at_p75": 9394162.08532619,
+  "upside_vs_current": 3617288.6863901876,
+  "upside_over_capital_pct": 0.18814729600390767,
+  "top_categories_by_capital": [
+    {
+      "category": "Bikes",
+      "inventory_capital": 14623652.532399999,
+      "gross_profit_12m_est": 4904789.445425002,
+      "upside_gross_profit": 5012205.528988894,
+      "inventory_roic": 0.33540112051746346,
+      "capital_share": 0.7606251311994318,
+      "upside_per_capital": 0.3427464867538331
+    },
+    {
+      "category": "Components",
+      "inventory_capital": 4375836.8086,
+      "gross_profit_12m_est": 220803.61304000003,
+      "upside_gross_profit": 1918187.3228678452,
+      "inventory_roic": 0.05045974580360177,
+      "capital_share": 0.22760192361479978,
+      "upside_per_capital": 0.4383589714995674
+    },
+    {
+      "category": "Clothing",
+      "inventory_capital": 138132.9324,
+      "gross_profit_12m_est": 174137.76610500008,
+      "upside_gross_profit": 125568.69816045814,
+      "inventory_roic": 1.260653510205218,
+      "capital_share": 0.007184756311525191,
+      "upside_per_capital": 0.9090424417896318
+    },
+    {
+      "category": "Accessories",
+      "inventory_capital": 88211.75779999999,
+      "gross_profit_12m_est": 477142.574366,
+      "upside_gross_profit": 9505.665321665667,
+      "inventory_roic": 5.4090586818121436,
+      "capital_share": 0.004588188874243297,
+      "upside_per_capital": 0.1077596179776577
+    }
+  ],
+  "top_subcategories_by_capital": [
+    {
+      "category": "Bikes",
+      "subcategory": "Road Bikes",
+      "inventory_capital": 6927375.9819,
+      "gross_profit_12m_est": 1182120.5447110003,
+      "upside_gross_profit": 2400477.9476805143,
+      "inventory_roic": 0.17064477917752274,
+      "upside_per_capital": 0.34652052291553626
+    },
+    {
+      "category": "Bikes",
+      "subcategory": "Mountain Bikes",
+      "inventory_capital": 4771083.8883,
+      "gross_profit_12m_est": 3349815.5299920007,
+      "upside_gross_profit": 1497072.0655652964,
+      "inventory_roic": 0.7021078665597691,
+      "upside_per_capital": 0.31378028569913136
+    },
+    {
+      "category": "Bikes",
+      "subcategory": "Touring Bikes",
+      "inventory_capital": 2925192.6621999997,
+      "gross_profit_12m_est": 372853.3707220004,
+      "upside_gross_profit": 1114655.515743083,
+      "inventory_roic": 0.12746284220526596,
+      "upside_per_capital": 0.3810537097767656
+    },
+    {
+      "category": "Components",
+      "subcategory": "Mountain Frames",
+      "inventory_capital": 1671963.0595,
+      "gross_profit_12m_est": 55842.474220000004,
+      "upside_gross_profit": 761115.1649717145,
+      "inventory_roic": 0.03339934689508013,
+      "upside_per_capital": 0.45522247674498606
+    },
+    {
+      "category": "Components",
+      "subcategory": "Wheels",
+      "inventory_capital": 1059724.1329,
+      "gross_profit_12m_est": 493.13599999999997,
+      "upside_gross_profit": 517311.20237298595,
+      "inventory_roic": 0.0004653437481417952,
+      "upside_per_capital": 0.48815647989192446
+    },
+    {
+      "category": "Components",
+      "subcategory": "Cranksets",
+      "inventory_capital": 337989.7228,
+      "gross_profit_12m_est": 48735.587392000016,
+      "upside_gross_profit": 116413.56733413645,
+      "inventory_roic": 0.144192512684294,
+      "upside_per_capital": 0.3444293109557722
+    },
+    {
+      "category": "Components",
+      "subcategory": "Road Frames",
+      "inventory_capital": 287310.4688,
+      "gross_profit_12m_est": -1439.9487999999983,
+      "upside_gross_profit": 141826.11401593836,
+      "inventory_roic": -0.005011821553228409,
+      "upside_per_capital": 0.4936336451932947
+    },
+    {
+      "category": "Components",
+      "subcategory": "Forks",
+      "inventory_capital": 217323.2279,
+      "gross_profit_12m_est": 0.0,
+      "upside_gross_profit": 106188.87193584372,
+      "inventory_roic": 0.0,
+      "upside_per_capital": 0.48862182364006623
+    },
+    {
+      "category": "Components",
+      "subcategory": "Handlebars",
+      "inventory_capital": 216164.3481,
+      "gross_profit_12m_est": 21555.605155999998,
+      "upside_gross_profit": 84067.01281858809,
+      "inventory_roic": 0.09971859534407652,
+      "upside_per_capital": 0.3889032282959897
+    },
+    {
+      "category": "Components",
+      "subcategory": "Pedals",
+      "inventory_capital": 128244.26640000001,
+      "gross_profit_12m_est": 34964.89649199999,
+      "upside_gross_profit": 28559.625366136228,
+      "inventory_roic": 0.27264296076163597,
+      "upside_per_capital": 0.22269709335041452
+    },
+    {
+      "category": "Components",
+      "subcategory": "Bottom Brackets",
+      "inventory_capital": 108515.924,
+      "gross_profit_12m_est": 12594.6116,
+      "upside_gross_profit": 40428.63707886683,
+      "inventory_roic": 0.1160623356992288,
+      "upside_per_capital": 0.37255948794083743
+    },
+    {
+      "category": "Components",
+      "subcategory": "Saddles",
+      "inventory_capital": 102600.36,
+      "gross_profit_12m_est": 13109.808436000003,
+      "upside_gross_profit": 37022.96657332731,
+      "inventory_roic": 0.12777546234730564,
+      "upside_per_capital": 0.36084636129276065
+    },
+    {
+      "category": "Components",
+      "subcategory": "Headsets",
+      "inventory_capital": 89924.6406,
+      "gross_profit_12m_est": 0.0,
+      "upside_gross_profit": 43939.14188014954,
+      "inventory_roic": 0.0,
+      "upside_per_capital": 0.48862182364006623
+    },
+    {
+      "category": "Components",
+      "subcategory": "Derailleurs",
+      "inventory_capital": 80327.4102,
+      "gross_profit_12m_est": 16903.075800000006,
+      "upside_gross_profit": 22346.64986020765,
+      "inventory_roic": 0.21042724716151756,
+      "upside_per_capital": 0.27819457647854867
+    },
+    {
+      "category": "Components",
+      "subcategory": "Brakes",
+      "inventory_capital": 70456.14,
+      "gross_profit_12m_est": 15748.581000000004,
+      "upside_gross_profit": 18677.826613439807,
+      "inventory_roic": 0.2235231876171474,
+      "upside_per_capital": 0.2650986360229188
+    }
+  ],
+  "top_subcategories_by_upside": [
+    {
+      "category": "Bikes",
+      "subcategory": "Road Bikes",
+      "inventory_capital": 6927375.9819,
+      "gross_profit_12m_est": 1182120.5447110003,
+      "upside_gross_profit": 2400477.9476805143,
+      "inventory_roic": 0.17064477917752274,
+      "upside_per_capital": 0.34652052291553626
+    },
+    {
+      "category": "Bikes",
+      "subcategory": "Mountain Bikes",
+      "inventory_capital": 4771083.8883,
+      "gross_profit_12m_est": 3349815.5299920007,
+      "upside_gross_profit": 1497072.0655652964,
+      "inventory_roic": 0.7021078665597691,
+      "upside_per_capital": 0.31378028569913136
+    },
+    {
+      "category": "Bikes",
+      "subcategory": "Touring Bikes",
+      "inventory_capital": 2925192.6621999997,
+      "gross_profit_12m_est": 372853.3707220004,
+      "upside_gross_profit": 1114655.515743083,
+      "inventory_roic": 0.12746284220526596,
+      "upside_per_capital": 0.3810537097767656
+    },
+    {
+      "category": "Components",
+      "subcategory": "Mountain Frames",
+      "inventory_capital": 1671963.0595,
+      "gross_profit_12m_est": 55842.474220000004,
+      "upside_gross_profit": 761115.1649717145,
+      "inventory_roic": 0.03339934689508013,
+      "upside_per_capital": 0.45522247674498606
+    },
+    {
+      "category": "Components",
+      "subcategory": "Wheels",
+      "inventory_capital": 1059724.1329,
+      "gross_profit_12m_est": 493.13599999999997,
+      "upside_gross_profit": 517311.20237298595,
+      "inventory_roic": 0.0004653437481417952,
+      "upside_per_capital": 0.48815647989192446
+    },
+    {
+      "category": "Components",
+      "subcategory": "Road Frames",
+      "inventory_capital": 287310.4688,
+      "gross_profit_12m_est": -1439.9487999999983,
+      "upside_gross_profit": 141826.11401593836,
+      "inventory_roic": -0.005011821553228409,
+      "upside_per_capital": 0.4936336451932947
+    },
+    {
+      "category": "Components",
+      "subcategory": "Cranksets",
+      "inventory_capital": 337989.7228,
+      "gross_profit_12m_est": 48735.587392000016,
+      "upside_gross_profit": 116413.56733413645,
+      "inventory_roic": 0.144192512684294,
+      "upside_per_capital": 0.3444293109557722
+    },
+    {
+      "category": "Components",
+      "subcategory": "Forks",
+      "inventory_capital": 217323.2279,
+      "gross_profit_12m_est": 0.0,
+      "upside_gross_profit": 106188.87193584372,
+      "inventory_roic": 0.0,
+      "upside_per_capital": 0.48862182364006623
+    },
+    {
+      "category": "Clothing",
+      "subcategory": "Jerseys",
+      "inventory_capital": 48445.135200000004,
+      "gross_profit_12m_est": -76704.02785099995,
+      "upside_gross_profit": 102553.52305253103,
+      "inventory_roic": -1.5833174483740515,
+      "upside_per_capital": 2.1169003374467006
+    },
+    {
+      "category": "Components",
+      "subcategory": "Handlebars",
+      "inventory_capital": 216164.3481,
+      "gross_profit_12m_est": 21555.605155999998,
+      "upside_gross_profit": 84067.01281858809,
+      "inventory_roic": 0.09971859534407652,
+      "upside_per_capital": 0.3889032282959897
+    },
+    {
+      "category": "Components",
+      "subcategory": "Headsets",
+      "inventory_capital": 89924.6406,
+      "gross_profit_12m_est": 0.0,
+      "upside_gross_profit": 43939.14188014954,
+      "inventory_roic": 0.0,
+      "upside_per_capital": 0.48862182364006623
+    },
+    {
+      "category": "Components",
+      "subcategory": "Bottom Brackets",
+      "inventory_capital": 108515.924,
+      "gross_profit_12m_est": 12594.6116,
+      "upside_gross_profit": 40428.63707886683,
+      "inventory_roic": 0.1160623356992288,
+      "upside_per_capital": 0.37255948794083743
+    },
+    {
+      "category": "Components",
+      "subcategory": "Saddles",
+      "inventory_capital": 102600.36,
+      "gross_profit_12m_est": 13109.808436000003,
+      "upside_gross_profit": 37022.96657332731,
+      "inventory_roic": 0.12777546234730564,
+      "upside_per_capital": 0.36084636129276065
+    },
+    {
+      "category": "Components",
+      "subcategory": "Pedals",
+      "inventory_capital": 128244.26640000001,
+      "gross_profit_12m_est": 34964.89649199999,
+      "upside_gross_profit": 28559.625366136228,
+      "inventory_roic": 0.27264296076163597,
+      "upside_per_capital": 0.22269709335041452
+    },
+    {
+      "category": "Components",
+      "subcategory": "Derailleurs",
+      "inventory_capital": 80327.4102,
+      "gross_profit_12m_est": 16903.075800000006,
+      "upside_gross_profit": 22346.64986020765,
+      "inventory_roic": 0.21042724716151756,
+      "upside_per_capital": 0.27819457647854867
+    }
+  ]
+}

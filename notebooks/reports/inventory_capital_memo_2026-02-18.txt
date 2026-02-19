@@ -1,0 +1,175 @@
+INVENTORY CAPITAL MEMO
+Empresa: AdventureWorks Demo
+Snapshot: 2026-02-18
+Preparado por: Sintelo
+
+1. Scope
+- SKUs en alcance (capital > 0): 219
+- Categorias en alcance: 4
+- Subcategorias en alcance: 35
+- Capital de inventario en alcance: 19,225,834
+Nota: No incluye CxC/CxP; es una lectura economica del capital en inventario.
+
+2. Current Performance (Inventory Capital Proxy)
+- Gross profit 12m estimado: 5,776,873
+- Inventory ROIC (capital-weighted): 0.30x
+
+3. Internal Benchmark
+- ROIC P75: 0.49x
+- Gap vs P75: 0.19x
+
+4. Upside Potential (Inventory Only, proxy)
+- Gross profit at P75: 9,394,162
+- Incremental upside vs current: 3,617,289
+- Upside / inventory capital: 18.8%
+
+5. Capital & Upside Concentration
+5.1 Por Category (ordenado por inventory_capital)
+   category inventory_capital inventory_roic upside_gp upside_per_cap cap_share
+      Bikes        14,623,653          0.34x 5,012,206          34.3%     76.1%
+ Components         4,375,837          0.05x 1,918,187          43.8%     22.8%
+   Clothing           138,133          1.26x   125,569          90.9%      0.7%
+Accessories            88,212          5.41x     9,506          10.8%      0.5%
+
+5.2 Por Subcategory (top por capital)
+  category     subcategory inventory_capital inventory_roic upside_gp upside_per_cap
+     Bikes      Road Bikes         6,927,376          0.17x 2,400,478          34.7%
+     Bikes  Mountain Bikes         4,771,084          0.70x 1,497,072          31.4%
+     Bikes   Touring Bikes         2,925,193          0.13x 1,114,656          38.1%
+Components Mountain Frames         1,671,963          0.03x   761,115          45.5%
+Components          Wheels         1,059,724          0.00x   517,311          48.8%
+Components       Cranksets           337,990          0.14x   116,414          34.4%
+Components     Road Frames           287,310         -0.01x   141,826          49.4%
+Components           Forks           217,323          0.00x   106,189          48.9%
+Components      Handlebars           216,164          0.10x    84,067          38.9%
+Components          Pedals           128,244          0.27x    28,560          22.3%
+Components Bottom Brackets           108,516          0.12x    40,429          37.3%
+Components         Saddles           102,600          0.13x    37,023          36.1%
+Components        Headsets            89,925          0.00x    43,939          48.9%
+Components     Derailleurs            80,327          0.21x    22,347          27.8%
+Components          Brakes            70,456          0.22x    18,678          26.5%
+
+5.3 Por Subcategory (top por upside)
+  category     subcategory inventory_capital inventory_roic upside_gp upside_per_cap
+     Bikes      Road Bikes         6,927,376          0.17x 2,400,478          34.7%
+     Bikes  Mountain Bikes         4,771,084          0.70x 1,497,072          31.4%
+     Bikes   Touring Bikes         2,925,193          0.13x 1,114,656          38.1%
+Components Mountain Frames         1,671,963          0.03x   761,115          45.5%
+Components          Wheels         1,059,724          0.00x   517,311          48.8%
+Components     Road Frames           287,310         -0.01x   141,826          49.4%
+Components       Cranksets           337,990          0.14x   116,414          34.4%
+Components           Forks           217,323          0.00x   106,189          48.9%
+  Clothing         Jerseys            48,445         -1.58x   102,554         211.7%
+Components      Handlebars           216,164          0.10x    84,067          38.9%
+Components        Headsets            89,925          0.00x    43,939          48.9%
+Components Bottom Brackets           108,516          0.12x    40,429          37.3%
+Components         Saddles           102,600          0.13x    37,023          36.1%
+Components          Pedals           128,244          0.27x    28,560          22.3%
+Components     Derailleurs            80,327          0.21x    22,347          27.8%
+
+6. Capital Reallocation Plan (30-90 dias)
+Plan status: Deterministico. Basado exclusivamente en facts pack y constraints institucionales.
+
+6.1 Capital to Reduce
+  category     subcategory inventory_capital inventory_roic gap_ratio reduce_pct capital_to_reduce
+     Bikes      Road Bikes         6,927,376          0.17x     65.1%      45.0%         3,117,319
+     Bikes   Touring Bikes         2,925,193          0.13x     73.9%      45.0%         1,316,337
+Components Mountain Frames         1,671,963          0.03x     93.2%      60.0%         1,003,178
+Components          Wheels         1,059,724          0.00x     99.9%      60.0%           635,834
+Components     Road Frames           287,310         -0.01x    101.0%      60.0%           172,386
+Components       Cranksets           337,990          0.14x     70.5%      45.0%           152,095
+Components           Forks           217,323          0.00x    100.0%      60.0%           130,394
+Components      Handlebars           216,164          0.10x     79.6%      60.0%           129,699
+Components Bottom Brackets           108,516          0.12x     76.2%      60.0%            65,110
+Components         Saddles           102,600          0.13x     73.8%      45.0%            46,170
+Components          Pedals           128,244          0.27x     44.2%      30.0%            38,473
+
+6.2 Capital to Increase
+category    subcategory inventory_capital inventory_roic capital_to_increase max_increase_allowed
+   Bikes Mountain Bikes         4,771,084          0.70x           4,771,084            4,771,084
+
+6.3 Expected Portfolio Effect
+- Capital liberado: 6,806,995
+- Capital reasignado: 4,771,084
+- Capital no asignado: 2,035,912
+- Incremental gross profit esperado: 2,795,056
+- Nuevo ROIC estimado del portafolio: 0.50x
+
+Validacion economica:
+incremental_profit = capital_reallocated * (destination_roic - source_roic)
+capital_reallocated (assigned): 4,771,084
+incremental_profit (computed): 2,795,056
+
+6.4 Residual Capital Treatment
+Residual capital: 2,035,912
+Decision: Retirar capital del sistema operativo mediante reduccion neta de inventario.
+Expected economic impact: Mejora mecanica del ROIC por reduccion de capital invertido; gross profit incremental no disponible.
+
+6.5 New Portfolio Allocation
+                 subcategory capital_before capital_after   roic
+          Bikes / Road Bikes      6,927,376     3,810,057  0.17x
+      Bikes / Mountain Bikes      4,771,084     9,542,168  0.70x
+       Bikes / Touring Bikes      2,925,193     1,608,856  0.13x
+Components / Mountain Frames      1,671,963       668,785  0.03x
+         Components / Wheels      1,059,724       423,890  0.00x
+      Components / Cranksets        337,990       185,894  0.14x
+    Components / Road Frames        287,310       114,924 -0.01x
+          Components / Forks        217,323        86,929  0.00x
+     Components / Handlebars        216,164        86,466  0.10x
+         Components / Pedals        128,244        89,771  0.27x
+Components / Bottom Brackets        108,516        43,406  0.12x
+        Components / Saddles        102,600        56,430  0.13x
+       Components / Headsets         89,925        89,925  0.00x
+    Components / Derailleurs         80,327        80,327  0.21x
+         Components / Brakes         70,456        70,456  0.22x
+          Clothing / Jerseys         48,445        48,445 -1.58x
+
+7. Priority Actions (30-90 dias)
+1. Area: Bikes / Road Bikes
+   Capital en alcance: 6,927,376
+   ROIC: 0.17x vs benchmark 0.49x
+   Accion recomendada: Reducir exposicion. Liberar capital improductivo mediante liquidacion selectiva y reduccion de futuras compras en SKUs con ROIC inferior al benchmark.
+   Impacto esperado:
+   - Capital en riesgo / a mover: 3,117,319
+   - Upside economico estimado: No disponible
+   - Horizonte: 30-90 dias
+   Riesgo operativo: Validar cobertura de SKUs core antes de reduccion.
+2. Area: Bikes / Touring Bikes
+   Capital en alcance: 2,925,193
+   ROIC: 0.13x vs benchmark 0.49x
+   Accion recomendada: Reducir exposicion. Liberar capital improductivo mediante liquidacion selectiva y reduccion de futuras compras en SKUs con ROIC inferior al benchmark.
+   Impacto esperado:
+   - Capital en riesgo / a mover: 1,316,337
+   - Upside economico estimado: No disponible
+   - Horizonte: 30-90 dias
+   Riesgo operativo: Validar cobertura de SKUs core antes de reduccion.
+3. Area: Components / Mountain Frames
+   Capital en alcance: 1,671,963
+   ROIC: 0.03x vs benchmark 0.49x
+   Accion recomendada: Reducir exposicion. Liberar capital improductivo mediante liquidacion selectiva y reduccion de futuras compras en SKUs con ROIC inferior al benchmark.
+   Impacto esperado:
+   - Capital en riesgo / a mover: 1,003,178
+   - Upside economico estimado: No disponible
+   - Horizonte: 30-90 dias
+   Riesgo operativo: Validar cobertura de SKUs core antes de reduccion.
+4. Area: Bikes / Mountain Bikes
+   Capital en alcance: 4,771,084
+   ROIC: 0.70x vs benchmark 0.49x
+   Accion recomendada: Aumentar exposicion. Reasignar capital liberado hacia esta subcategoria por ROIC superior al benchmark, respetando constraints de asignacion.
+   Impacto esperado:
+   - Capital en riesgo / a mover: 4,771,084
+   - Upside economico estimado: No disponible
+   - Horizonte: 30-90 dias
+   Riesgo operativo: Asegurar capacidad operativa y abastecimiento antes de aumento.
+
+8. Appendix tecnico
+- Inventory ROIC proxy = gross_profit_12m_est / inventory_capital.
+- Benchmark interno P75 = percentil 75 de ROIC proxy a nivel SKU.
+- Upside proxy = (inventory_capital_total * P75) - gross_profit_12m_est_total.
+
+9. Investment Committee Decision
+Decision: Approve capital reallocation plan as proposed.
+Expected economic result: ROIC increase from 0.30x to 0.50x
+Execution owner: Inventory leadership
+Execution timeline: 90 days
+Objective: Maximize portfolio-level ROIC
