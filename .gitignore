@@ -1,38 +1,79 @@
-# Python
+# =====================================
+# PYTHON
+# =====================================
+
 __pycache__/
 *.py[cod]
 *.egg-info/
 dist/
 build/
+
+# Virtual environments
 .venv/
 venv/
 .env
 
-# Jupyter
+
+# =====================================
+# JUPYTER
+# =====================================
+
 .ipynb_checkpoints/
 
+
+# =====================================
 # OS
+# =====================================
+
 .DS_Store
 
-# =========================
-# DATA STRATEGY - SINTELO
-# =========================
 
-# NO subir raw (fuente original)
+# =====================================
+# DATA STRATEGY - SINTELO CORE
+# =====================================
+
+# Raw ERP extracts — NEVER version
 data/raw/
 
-# NO subir backups pesados
+# Temporary / intermediate working files
+data/temp/
+data/intermediate/
+
+# Local notebook artifacts
+notebooks/data/
+
+
+# =====================================
+# OUTPUTS STRATEGY
+# =====================================
+
+# Default: ignore outputs
+outputs/*
+
+# Allow institutional baseline outputs only if explicitly committed
+!outputs/.gitkeep
+!outputs/context_*.json
+
+
+# =====================================
+# REPORTS STRATEGY
+# =====================================
+
+# Reports are institutional deliverables → versioned
+# DO NOT IGNORE:
+# notebooks/reports/
+
+
+# =====================================
+# BACKUPS
+# =====================================
+
 *.bak
 
-# Subir gold (es reproducible e institucional)
-# data/gold/   <-- NO ignorar
 
-# =========================
-# REPORTS
-# =========================
+# =====================================
+# FUTURE ARCHITECTURE
+# =====================================
 
-# Subir reports (estos son entregables institucionales)
-# reports/  <-- NO ignorar
-
-# notebooks local artifacts
-notebooks/data/
+# When src/ starts generating artifacts
+src/**/__pycache__/
